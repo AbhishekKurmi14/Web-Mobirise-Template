@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Title </title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        .box {
+            height: 100%;
+            width: 100%;
+            background-color: #ffc107;
+            position: relative
+        }
+
+        .menu {
+            height: 30px;
+            width: 40px;
+            position: absolute;
+            top: 28px;
+            right: 15px;
+            background-color: white
+        }
+
+        .intro {
+            position: absolute;
+            top: 230px;
+            left: 210px;
+        }
+
+        .text {
+            height: 25px;
+            width: 290px;
+            background-color: white;
+            margin: 20px 0px;
+        }
+
+        .text1 {
+            height: 65px;
+            width: 400px;
+            background-color: black;
+            margin: 15px 0px;
+        }
+
+        .text2 {
+            height: 65px;
+            width: 470px;
+            background-color: black;
+            margin: 15px 0px
+        }
+
+        .text3 {
+            height: 55px;
+            width: 150px;
+            background-color: white
+        }
+
+        .box3 {}
+
+        .box2 {
+            width: 73%;
+            margin: auto;
+        }
+
+        .text4 {
+            height: 50px;
+            width: 750px;
+            background-color: black;
+            margin: 40px 0px
+        }
+
+        .text5 {
+            height: 110px;
+            width: 1050px;
+            background-color: #333333;
+            margin: 40px 15px
+        }
+
+        .box4 {
+            background-color: #fac769;
+        }
+
+        .box5 {
+            width: 55%;
+            margin: auto;
+            padding: 20px
+        }
+
+        .text6 {
+            height: 70px;
+            width: 790px;
+            background-color: white;
+        }
+
+        .box6 {
+            overflow: auto
+        }
+
+        .box7 {
+            width: 73%;
+            margin: auto;
+            overflow: auto
+        }
+
+        .text7 {
+            height: 50px;
+            width: 600px;
+            background-color: black;
+            margin: 40px 0px
+        }
+
+        .box8 {
+            height: 200px;
+            width: 30%;
+            background-color: #a38dfd99;
+            float: left;
+            margin: 0px 15px;
+            padding: 20px;
+            position: relative
+        }
+
+        .box9 {
+            height: 50px;
+            width: 100px;
+            background-color: #fac769;
+            padding: 10px;
+            position: absolute;
+            top: 30px;
+            left: 25px
+        }
+
+        .text8 {
+            height: 30px;
+            width: 80px;
+            background-color: black
+        }
+
+        .box12 {
+            height: 150px;
+            width: 30%;
+            background-color: #fac769;
+            float: left;
+            margin: 0px 15px;
+            padding: 20px;
+            position: relative
+        }
+
+        .headphone {
+            height: 30px;
+            width: 130px;
+            background-color: black;
+            margin: 10px 0px
+        }
+
+        .lorem {
+            height: 60px;
+            width: 295px;
+            background-color: white;
+        }
+
+        .box13 {
+            overflow: auto
+        }
+
+        .box14 {
+            width: 73%;
+            margin: auto;
+            overflow: auto
+        }
+
+        .text9 {
+            height: 50px;
+            width: 500px;
+            background-color: black;
+            margin: 40px 0px
+        }
+
+        .box15 {
+            height: 160px;
+            width: 23%;
+            background-color: #ffc107;
+            float: left;
+            margin: 10px
+        }
+
+        .box16 {
+            background-color: #fac769;
+            overflow: auto;
+        }
+
+        .box17 {
+            width: 62%;
+            margin: auto;
+            padding: 20px;
+            overflow: auto
+        }
+
+        .text10 {
+            height: 30px;
+            width: 300px;
+            background-color: white;
+            float: left;
+            margin: 10px;
+        }
+
+        .text13 {
+            height: 60px;
+            width: 650px;
+            background-color: white;
+            float: left;
+            margin: 10px;
+        }
+
+        .text11 {
+            height: 50px;
+            width: 130px;
+            background-color: white;
+            float: left;
+            margin: 0px 50px;
+            padding: 10px
+        }
+
+        .text12 {
+            height: 32px;
+            width: 110px;
+            background-color: black
+        }
+
+        .box18 {
+            overflow: auto
+        }
+
+        .box19 {
+            width: 73%;
+            margin: auto;
+            overflow: auto
+        }
+
+        .text14 {
+            height: 50px;
+            width: 730px;
+            background-color: black;
+            margin: 40px auto;
+        }
+
+        .box20 {
+            height: 160px;
+            width: 23%;
+            background-color: #fac769;
+            float: left;
+            margin: 10px;
+            padding: 20px
+        }
+
+        .text15 {
+            height: 30px;
+            width: 110px;
+            background-color: black;
+            margin: 10px
+        }
+
+        .text16 {
+            height: 70px;
+            width: 197px;
+            background-color: white;
+            margin: 10px
+        }
+
+        .box21 {}
+
+        .box22 {
+            width: 34%;
+            margin: auto
+        }
+
+        .text17 {
+            height: 30px;
+            width: 270px;
+            background-color: #333333;
+            margin: 25px auto
+        }
+
+        .text18 {
+            height: 50px;
+            width: 460px;
+            background-color: black;
+            margin: 25px auto
+        }
+
+        .box24 {
+            width: 100%;
+            height: 50%;
+            background-color: dodgerblue;
+            padding: 20px;
+            position: relative;
+            overflow: auto;
+            margin: 60px 0px
+        }
+
+        .text19 {
+            height: 100px;
+            width: 300px;
+            background-color: white;
+            margin: 10px;
+            position: absolute;
+            top: 10px;
+            left: 0px;
+        }
+
+        .text20 {
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            margin: 10px;
+            position: absolute;
+            bottom: 10px;
+            left: 0px;
+        }
+
+        .text21 {
+            height: 90px;
+            width: 40px;
+            background-color: white;
+            margin: 10px;
+            position: absolute;
+            bottom: 10px;
+            right: 0px;
+        }
+        .box25{
+           overflow: auto 
+        }
+        .box26{
+            width: 73%;
+            margin: auto
+        }
+        .text22{
+            height: 70px;
+            width: 100px;
+            background-color: #ffc107;
+            float: left;
+            margin: 30px 0px
+        }
+        .text23{
+            height: 70px;
+            width: 370px;
+            background-color: #333333;
+            float: left;
+            margin: 30px 140px
+        }
+        .text25{
+            height: 50px;
+            width: 50px;
+            background-color: black;
+            margin: 40px 10px;
+            float: left
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="menu"></div>
+        <div class="intro">
+            <div class="text"></div>
+            <div class="text1"></div>
+            <div class="text2"></div>
+            <div class="text3"></div>
+        </div>
+    </div>
+    <div class="box3">
+        <div class="box2">
+            <div class="text4"></div>
+            <div class="text5"></div>
+        </div>
+    </div>
+    <div class="box4">
+        <div class="box5">
+            <div class="text6"></div>
+        </div>
+    </div>
+    <div class="box6">
+        <div class="box7">
+            <div class="text7"></div>
+            <div class="box8">
+                <div class="box9">
+                    <div class="text8"></div>
+                </div>
+            </div>
+            <div class="box8">
+                <div class="box9">
+                    <div class="text8"></div>
+                </div>
+            </div>
+            <div class="box8">
+                <div class="box9">
+                    <div class="text8"></div>
+                </div>
+            </div>
+            <div class="box12">
+                <div class="headphone"></div>
+                <div class="lorem"></div>
+            </div>
+            <div class="box12">
+                <div class="headphone"></div>
+                <div class="lorem"></div>
+            </div>
+            <div class="box12">
+                <div class="headphone"></div>
+                <div class="lorem"></div>
+            </div>
+        </div>
+    </div>
+    <div class="box13">
+        <div class="box14">
+            <div class="text9"></div>
+            <div class="box15"></div>
+            <div class="box15"></div>
+            <div class="box15"></div>
+            <div class="box15"></div>
+            <div class="box15"></div>
+            <div class="box15"></div>
+            <div class="box15"></div>
+            <div class="box15"></div>
+        </div>
+    </div>
+    <div class="box16">
+        <div class="box17">
+            <div class="text10"></div>
+            <div class="text13"></div>
+            <div class="text11">
+                <div class="text12"></div>
+            </div>
+        </div>
+    </div>
+    <div class="box18">
+        <div class="box19">
+            <div class="text14"></div>
+            <div class="box20">
+                <div class="text15"></div>
+                <div class="text16"></div>
+            </div>
+            <div class="box20">
+                <div class="text15"></div>
+                <div class="text16"></div>
+            </div>
+            <div class="box20">
+                <div class="text15"></div>
+                <div class="text16"></div>
+            </div>
+            <div class="box20">
+                <div class="text15"></div>
+                <div class="text16"></div>
+            </div>
+        </div>
+    </div>
+    <div class="box21">
+        <div class="box22">
+            <div class="text17"></div>
+            <div class="text18"></div>
+        </div>
+    </div>
+    <div class="box24">
+        <div class="text19"></div>
+        <div class="text20"></div>
+        <div class="text21"></div>
+    </div>
+<div class="box25">
+    <div class="box26">
+        <div class="text22"></div>
+        <div class="text23"></div>
+        <div class="text25"></div>
+         <div class="text25"></div>
+          <div class="text25"></div>
+           <div class="text25"></div>
+            <div class="text25"></div>
+    </div>
+</div>
+</body></html>
